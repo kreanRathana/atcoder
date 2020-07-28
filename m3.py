@@ -1,0 +1,11 @@
+# a,b = map(eval,input().split())
+# a1=round(a,0)
+# b1=round(b,2)
+# print((a1*b1)//100)
+a, b = input().split()
+A = int(a)
+B = float(b)
+B100 = round(100*B)
+print(B100)
+C=A*B100
+print(str(C//100))
